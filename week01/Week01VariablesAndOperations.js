@@ -52,23 +52,28 @@ Question 1. Creating & 'console.log()'ing variables \n`);
  * ↓ YOUR CODE HERE ↓ */
 
 console.log("Step 1:  Number of Seats on a Plane");
-
+var availFlightSeats = 7;
+console.log("The number of available seats are:",availFlightSeats);
 
 console.log("Step 2:  Cost of Groceries");
-
+var costOfGroceries = 99.99;
+console.log("The cost of groceries is: " + costOfGroceries);
 
 console.log("Step 3:  Middle Initial");
-
+var middleInitial = 'A';
+console.log('Middle initial is: ' + middleInitial);
 
 console.log("Step 4:  Is it Hot Outside?");
-
+var isHotOutside = false;
+console.log("Is it hot outside? " + isHotOutside);
 
 console.log("Step 5:  First Name");
-
+var firstName = 'Arturo';
+console.log("My first name is: " + firstName);
 
 console.log("Step 6:  Street Address");
-
-
+var streetAddress = '10 Memorial Blvd'
+console.log('The address is: ' + streetAddress);
 /*-------------------------------------------------------*/
 
 console.log(`--------------------------
@@ -85,34 +90,37 @@ Question 2. Creating & 'console.log()'ing variables \n`);
     console.log('Remove Plane Seats:')
 //	A customer booked 2 plane seats. Remove 2 seats from the available seats variable
 //  ↓ YOUR CODE HERE ↓
-
+console.log(availFlightSeats - 2);
 
     console.log('Buy a Candy Bar:')
 //	Impulse candy bar purchase! Add 2.15 to the grocery total
 //  ↓ YOUR CODE HERE ↓
-
+console.log(costOfGroceries + 2.15);
 
     console.log('Fix a Birth Certificate:')
 //	A birth certificate was printed incorrectly, change the middle initial to something else
 //  ↓ YOUR CODE HERE ↓
-
+middleInitial = 'E';
+console.log(middleInitial);
 
     console.log('Changing Seasons:')
 //	The season has changed, update the hot outside variable	to be opposite of what it was
 //  ↓ YOUR CODE HERE ↓
-    
+    isHotOutside = !isHotOutside;
+    console.log(isHotOutside);
 
     console.log('Full Name:')
 //	Create a new variable called full name using the customer's
 //  first name, the middle initial, and a last name of your choice
 //  ↓ YOUR CODE HERE ↓
-
+    var fullName = firstName + middleInitial + "Eslava";
+    console.log('Full name is ' + fullName);
 
     console.log('Introduce a Customer:')
 //	Print a line to the console that introduces the customer 
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
-
+console.log("Here is a new customer! His name is " + firstName + ". " + "He lives at " + streetAddress);
 
 
     console.log('-----------Finished------------')
